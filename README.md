@@ -30,6 +30,7 @@ For this project I trained my model on the previous world cup matches from 1930 
 For the modeling part I applied multiclassifaction models to predict which team is going to win each match, so it's either the home team wins or the away team wing or draw. The best models were **LogisticRegression**, **AdaBoostClassifier** and **XGBClassifier**, so I went with the best model which had the best score **AdaBoostClassifier**.
 
 The prediction process consisted on six parts:
+
 1- Predicting the group stages matches.
 
 2- Predictiong round of 16 matches.
