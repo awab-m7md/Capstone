@@ -27,27 +27,27 @@ the purpose of this project is to build a multiclassification model that predict
 
 For this project I trained my model on the previous world cup matches from 1930 to 2014 in order to predict the world cup winner in 2018. I started by cleaning the data and perform intensive EDA followed by feature engineering.
 
-For the modeling part I applied multiclassifaction models to predict which team is going to win each match, so it's either the home team wins or the away team wing or draw. The best models were **LogisticRegression**, **AdaBoostClassifier** and **XGBClassifier**, so I went with the best model which had the best score **AdaBoostClassifier**.
+For the modeling part I applied multiclassifaction models to predict which team is going to win each match, so it's either the home team wins or the away team wins or draw. The best models were **LogisticRegression**, **AdaBoostClassifier** and **XGBClassifier**, so I went with the best model which had the best score **AdaBoostClassifier**.
 
-The prediction process consisted on six parts:
+The prediction process consisted on six prediction parts:
 
-1- Predicting the group stages matches.
+1- Group stages matches.
 
-2- Predictiong round of 16 matches.
+2- Round of 16 matches.
 
-3- Predicting quarter final matches.
+3- Quarter final matches.
 
-4- Predicting semi final matches.
+4- Semi final matches.
 
-5- Predicting third place match.
+5- Third place match.
 
-6- Predicting the final match.
+6- Final match.
 
 Each round is based on the prior round, so I had to predict the group stages matches first to determine which team is going to qualify to the next round.
 
 ## Results:
 
-1- **Brazil** won the World Cup 2018.
+1- **Brazil** won the FIFA World Cup 2018.
 
 2- **Germany** won the second place.
 
