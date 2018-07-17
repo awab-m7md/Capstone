@@ -14,7 +14,9 @@
 ## Datasets:
 
 [FIFA World Cup 2018 fixures](https://www.kaggle.com/lekroll/fifa-worldcup-2018-matches) I used this dataset to get the world cup 2018 matches for predictions.
+
 [All previous world cup matches](https://www.kaggle.com/abecklas/fifa-world-cup#WorldCupMatches.csv) I used this dataset for training my model. 
+
 [FIFA World Cups winners](https://www.kaggle.com/abecklas/fifa-world-cup#WorldCups.csv) For visualization purposes.
 
 ## Problem Statement:
@@ -29,10 +31,15 @@ For the modeling part I applied multiclassifaction models to predict which team 
 
 The prediction process consisted on six parts:
 1- Predicting the group stages matches.
+
 2- Predictiong round of 16 matches.
+
 3- Predicting quarter final matches.
+
 4- Predicting semi final matches.
+
 5- Predicting third place match.
+
 6- Predicting the final match.
 
 Each round is based on the prior round, so I had to predict the group stages matches first to determine which team is going to qualify to the next round.
@@ -40,7 +47,10 @@ Each round is based on the prior round, so I had to predict the group stages mat
 ## Results:
 
 1- **Brazil** won the World Cup 2018.
+
 2- **Germany** won the second place.
+
 3- **Denmark** won the third place.
+
 4- **France** came on the fourth place.
 
